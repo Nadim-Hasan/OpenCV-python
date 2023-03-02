@@ -1,0 +1,130 @@
+
+
+course------ python
+
+
+
+
+
+
+
+
+python  is an
+=====
+     * high level programming language
+     * interpreted(not compiled language)
+     * object-oriented
+
+* Its was created by Guido van Rossum, and released in 1991
+
+
+why we learn python
+
+* beaginner friendly
+* few line to code
+* most popular
+
+
+
+version:
+1,2,3 ...
+
+
+install python
+install IDE ->python
+
+
+python("hello world")
+
+commenting ...
+we use # for commenting
+
+\n for back slab
+\t for tab 
+\""\ for doulbe cutation
+
+
+
+
+---------------------------------
+# variables
+name = "nadim hasan"
+age = 24
+cgpa= 3.70
+
+print ("our new student name is "+name)   #for string we use + sign
+print ("he is", age,"years old")      # on other case use , sign
+
+
+#contatination
+print("nadim" + "hasan" + "nadim")
+
+
+a=11
+b=4
+x=int
+
+
+print (11+4)
+print (11-4)
+print (11* 4)
+print (11+4)
+print (11/4)
+print (11%4)
+print(x)
+
+print("floor number is ",a//b)  #---- find out the floor number
+
+print ("a to the power b is equal to = ",a**b)
+
+
+
+#### user input take
+
+
+name="karim"
+age ="22"
+cgpa ="3.75"
+name=input("Enter your name : ")
+age= input("Enter your age :")
+cgpa  = input("Enter your CGPA : ")
+
+print(" Name:"+name)
+print(" Age :"+age)
+print(" CGPA:"+ cgpa)
+
+
+-------------------------------------------------
+
+
+#TYPE CUSTING ------------
+#-------------------------
+
+number1=int(input("Enter first number: "))
+number2=int(input ("Enter second number: "))
+
+sum= number1+ number2
+
+print("result is ",sum)
+
+
+-------------------------------------------------
+#math library function
+
+from  math import * 
+
+result= max(20,10)    #make maximum value
+result2= min(10,12)   # minimum 
+result3  = abs(-2)     #absulate
+reslut4 = sqrt(25)
+result5 = pow(2,3)     # power making
+result6 = round(4,3)
+# and so on
+-------------------------------------------------
+
+
+
+
+
+
+
